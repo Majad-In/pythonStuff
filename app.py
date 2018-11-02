@@ -55,5 +55,15 @@
 # x = input("x: ")
 # print(type(x))
 
-fruit = "Apple"
-print(fruit[1:-1])
+# fruit = "Apple"
+# print(fruit[1:-1])
+
+temperature = 35
+if temperature > 30:
+    print("it's warm")
+    print("Drink water")
+elif temperature > 20:
+    print("its nice")
+else:
+    print("It's cold")
+print("Done")
